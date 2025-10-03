@@ -42,6 +42,12 @@ Copy code
 
 ---
 
+
+## 📊 Dashboard Preview
+
+Here’s a preview of the dashboard created for this project:
+<img width="1304" height="734" alt="Screenshot 2025-10-03 132546" src="https://github.com/user-attachments/assets/a8504615-5ec4-4e4d-966f-d845966458ab" />
+
 ## 📖 How to Use This Project
 
 ### 1. Clone the repository
@@ -65,6 +71,7 @@ bash
 Copy code
 jupyter notebook
 Then navigate to the notebooks/ folder to explore.
+---
 
 📊 Project Workflow
 Data Collection → Gathering raw datasets
@@ -91,10 +98,4 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
-
-
-## 📊 Dashboard Preview
-
-Here’s a preview of the dashboard created for this project:
-<img width="1304" height="734" alt="Screenshot 2025-10-03 132546" src="https://github.com/user-attachments/assets/a8504615-5ec4-4e4d-966f-d845966458ab" />
 
