@@ -1,0 +1,14 @@
+# Power BI and common
+*.pbix
+*.pbit
+*.xlsx
+*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.env
+Thumbs.db
+
+# Git LFS tracking file (if used)
+.gitattributes
