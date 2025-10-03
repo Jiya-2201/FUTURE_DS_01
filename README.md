@@ -1,20 +1,100 @@
-# Retail Sales Dashboard
+# FUTURE_DS_01 🚀
 
-This repository stores scripts and notes for the Retail Sales Dashboard (Power BI internship task).
+A Data Science project repository containing structured code, notebooks, scripts, and documentation to demonstrate a complete workflow for data analysis and modeling.
 
-## Structure
-- `power_query/` - Power Query M scripts (paste into Advanced Editor).
-- `dax/` - DAX scripts for Calendar table and measures.
-- `pbix/` - Optional: place Power BI report files here (use Git LFS if committing).
-- `data/` - Data description (don't commit private raw data).
-- `docs/` - Visual mockups and documentation.
+---
 
-## Quickstart
-1. Import your raw dataset into Power BI as `raw_retail_source`.
-2. Create a `cleaned_retail` query and paste `power_query/cleaned_retail.m`.
-3. Create the `Calendar` table and measures from `dax/calendar_and_measures.dax`.
-4. Build visuals in Report view as documented.
+## 📌 Project Overview
 
-## Notes
-- Avoid committing raw data (place instructions or a sample CSV if needed).
-- For PBIX files use Git LFS or attach PBIX to GitHub Releases.
+**FUTURE_DS_01** is a structured data science project designed to showcase the full pipeline of data analysis — from data cleaning and exploration to modeling and visualization.  
+The project includes modular scripts, Jupyter notebooks, and documentation for easy replication and collaboration.
+
+---
+
+## 📂 Repository Structure
+
+FUTURE_DS_01/
+│
+├── docs/ # Project documentation, reports, and planning
+│ └── roadmap.md
+│
+├── notebooks/ # Jupyter notebooks for experiments & EDA
+│ └── 01_initial_eda.ipynb
+│
+├── scripts/ # Modular Python scripts
+│ └── data_cleaning.py
+│
+├── .gitignore # Files and folders to be ignored by Git
+├── README.md # Project description and instructions
+└── requirements.txt # Python dependencies
+
+yaml
+Copy code
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Programming Language:** Python 3.x  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook  
+- **Version Control:** Git, GitHub  
+- **Development Environment:** VS Code / Jupyter Notebook
+
+---
+
+## 📖 How to Use This Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/FUTURE_DS_01.git
+cd FUTURE_DS_01
+2. Create and activate a virtual environment
+bash
+Copy code
+python -m venv env
+source env/bin/activate      # Linux / macOS
+env\Scripts\activate         # Windows
+3. Install dependencies
+bash
+Copy code
+pip install -r requirements.txt
+4. Run notebooks or scripts
+Open Jupyter Notebook:
+
+bash
+Copy code
+jupyter notebook
+Then navigate to the notebooks/ folder to explore.
+
+📊 Project Workflow
+Data Collection → Gathering raw datasets
+
+Data Cleaning → Removing missing values, fixing inconsistencies
+
+Exploratory Data Analysis (EDA) → Understanding data distribution and patterns
+
+Feature Engineering → Creating meaningful features for models
+
+Model Building & Evaluation → Training and testing predictive models
+
+Visualization & Reporting → Summarizing findings
+
+🤝 Contribution Guidelines
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+
+## 📊 Dashboard Preview
+
+Here’s a preview of the dashboard created for this project:
+<img width="1304" height="734" alt="Screenshot 2025-10-03 132546" src="https://github.com/user-attachments/assets/a8504615-5ec4-4e4d-966f-d845966458ab" />
+
